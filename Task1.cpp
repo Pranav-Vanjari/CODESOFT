@@ -10,7 +10,7 @@ int main()
 
     uniform_int_distribution<int> dist(1, 100);
     int a = dist(gen);
-    cout << a<< endl;
+    // cout << a<< endl;
 
     while (true)
     {
