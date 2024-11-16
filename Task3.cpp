@@ -77,7 +77,6 @@ int main() {
             }
 
             mat[row][col] = player;
-            display(mat);
 
             if (checkWinner(mat, player)) {
                 cout << player << " is the winner!" << endl;
