@@ -92,7 +92,6 @@ int main() {
         }
 
         cout << "Do you want to play again? (y/n): ";
-        cin >> playAgain;
 
     } while (playAgain == 'y' || playAgain == 'Y');
 
